@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./store.html">Store</a></li>
+            </ul>
+        </nav>
+        <h1 class="name">Thejus Kayanadath</h1>
+        <h2 class="pline">The Prophet Juice</h2>
+    </header>
+    <section>
+        <h3 class="sectionheader">Store</h3>
+        <div class="storeitems">
+            <div class="item">
+                <img src="./img/1.jpg" class="itemimg">
+                <span class="itemtitle">Forest</span>
+                <div class="itemdetails">
+                    <span class="itemprice">Rs. 300</span>
+                    <button role="button" class="btn itembtn">Add To Cart</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/2.jpg" class="itemimg">
+                <span class="itemtitle">Lake</span>
+                <div class="itemdetails">
+                    <span class="itemprice">Rs. 250</span>
+                    <button role="button" class="btn itembtn">Add To Cart</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/3.jpg" class="itemimg">
+                <span class="itemtitle">Mountain</span>
+                <div class="itemdetails">
+                    <span class="itemprice">Rs. 600</span>
+                    <button role="button" class="btn itembtn">Add To Cart</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/4.jpg" class="itemimg">
+                <span class="itemtitle">Flowers</span>
+                <div class="itemdetails">
+                    <span class="itemprice">Rs. 500</span>
+                    <button role="button" class="btn itembtn">Add To Cart</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/5.jpg" class="itemimg">
+                <span class="itemtitle">Road</span>
+                <div class="itemdetails">
+                    <span class="itemprice">Rs. 750</span>
+                    <button role="button" class="btn itembtn">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cart">
+        <h3 class="sectionheader">Cart</h3>
+        <div class="cartitems">
+            <div class="header cartrow">
+                <span class="cartdet cartcol">ITEM</span>
+                <span class="cartqty cartcol">QUANTITY</span>
+                <span class="cartprice cartcol">PRICE</span>
+                <span class="cartremove cartcol">REMOVE</span>
+            </div>
+            <div class="cartrow cartitem">
+                <div class="cartdet cartcol">
+                    <img src="./img/1.jpg" class="cartimg">
+                    <span class="carttitle">Forest</span>
+                </div>
+                <input class="cartqty cartcol cartip" value="1">
+                <span class="cartprice cartcol">Rs. 300</span>
+                <button role="button" class="cartremove cartcol">Remove</span>
+            </div>
+        </div>
+        <div class="checkout">
+            <div class="total">
+                <span class="totaltext">Total</span>
+                <span class="totalamt">Rs. 300</span>
+            </div>
+            <button class="checkout btn">Checkout</button>
+        </div>
+    </section>
+</body>
+</html>
